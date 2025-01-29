@@ -1,0 +1,119 @@
+﻿div.infopanel
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:980px;
+	height:750px;
+}
+
+div.overlay
+{
+	position:absolute;
+	z-index:1000;
+	left:0px;
+	top:100px;
+	width:100%;
+	height:80%;
+	/*background-color:Fuchsia;*/
+	text-align:center;
+}
+
+div.questions
+{
+	border:0;
+	width:800px;
+	height:600px;
+	margin-left:10px;
+	margin-top:40px;
+	background-color:black;
+	float:left;
+}
+
+div.viewer
+{
+	z-index:500;
+	position:relative;
+}
+
+div.clearer
+{
+	height:10px;
+}
+
+img.viewer
+{
+	border:0;
+}
+
+span.qx-pagecount
+{
+	font-size:20px;
+}
+
+span.timer
+{
+	float:left;
+	padding-left:160px;
+	padding-top:11px;
+	font-size:70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center
+}
+
+span.points
+{
+	float:right;
+	padding-right:25px;
+	padding-top:11px;
+	font-size:70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center
+}
+
+.qx-hidden
+{
+	display:none;
+}
+
+.qx-panel
+{
+	text-align: center; 
+	width: 150px; 
+	height: 90px; 
+	background-color: #333333; 
+	float: left; 
+	margin-top: 20px; 
+	margin-left: 10px;	
+}
+
+.qx-panel-text
+{
+	margin-top: -25px;
+}
+
+.qx-panel-caption
+{
+	/*background-color: #0178A3;*/
+	background-color:black;
+	color:#eeeeee;
+	height: 25px;
+}
+
+.qx-button
+{
+	text-align: center; 
+	width: 150px; 
+	height: 40px; 
+	background-color: #333333; 
+	float: left; 
+	margin-top: 20px; 
+	margin-left: 10px;	
+	cursor:pointer;
+}
+
+.qx-answer
+{
+	cursor:pointer;
+}
